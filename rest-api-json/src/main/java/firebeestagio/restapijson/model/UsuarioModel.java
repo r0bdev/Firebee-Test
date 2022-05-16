@@ -4,40 +4,33 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
+//essa é a classe que modela minha tabela do banco de dados
+//ou seja, representação do usuario no banco de dados
+
 @Entity(name = "usuario") // digo utilizando este, que essa classe é uma tabela!
 public class UsuarioModel {
 
-    //essa classe é a representação do usuario no banco de dados
+    public UsuarioModel() {
+
+    }
 
     @Id
-    public Integer id;
-
+    private int id;
     @Column(nullable = false, length = 50)
-    public String nome;
-
+    private String nome;
     @Column(nullable = false, length = 50)
-    public Integer idade;
-
+    private int idade;
     @Column(nullable = false, length = 15)
-    public String login;
-
+    private String login;
     @Column(nullable = false, length = 12)
-    public String senha;
+    private String senha;
 
-    public Integer getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(Integer id) {
+    public void setId(int id) {
         this.id = id;
-    }
-
-    public Integer getIdade() {
-        return idade;
-    }
-
-    public void setIdade(Integer idade) {
-        this.idade = idade;
     }
 
     public String getNome() {
@@ -46,6 +39,14 @@ public class UsuarioModel {
 
     public void setNome(String nome) {
         this.nome = nome;
+    }
+
+    public int getIdade() {
+        return idade;
+    }
+
+    public void setIdade(int idade) {
+        this.idade = idade;
     }
 
     public String getLogin() {
@@ -63,4 +64,6 @@ public class UsuarioModel {
     public void setSenha(String senha) {
         this.senha = senha;
     }
+
+
 }

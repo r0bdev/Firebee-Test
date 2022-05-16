@@ -1,0 +1,44 @@
+[
+  {
+  "id": 1,
+  "nome": "Robson",
+  "idade": 29,
+  "login": "robs",
+  "senha": "complexo"
+},
+  {
+    "id": 2,
+    "nome": "Concorrente Fraco",
+    "idade": 20,
+    "login": "fraco",
+    "senha": "123456"
+  },
+  {
+    "id": 13,
+    "nome": "Concorrente Azarado",
+    "idade": 21,
+    "login": "Azar",
+    "senha": "131313"
+  },
+  {
+    "id": 9,
+    "nome": "Concorrente Perfeitin",
+    "idade": 19,
+    "login": "perfetinmigue",
+    "senha": "miguee"
+  },
+  {
+    "id": 5,
+    "nome": "Maria",
+    "idade": 30,
+    "login": "maria",
+    "senha": "maria123"
+  },
+  {
+    "id": 21,
+    "nome": "Balbi",
+    "idade": 27,
+    "login": "balbi",
+    "senha": "love"
+  }
+]

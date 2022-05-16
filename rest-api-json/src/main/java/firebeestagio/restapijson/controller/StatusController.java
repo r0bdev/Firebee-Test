@@ -6,10 +6,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class StatusController {
 
-    // essa classe serve para fazer consulta de status para saber se a aplicação
-    //está online
+    // essa classe serve para fazer consulta de status para saber se a aplicação está online
 
-    //consigo saber se está online ou não.
     @GetMapping(path = "/api/status")
     public String check() {
         return "A API - Teste de Estágio da FireBEE - está online!";
